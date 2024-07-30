@@ -72,5 +72,5 @@
 
 }
 .navbar-profile:hover .dropdown{
-    display: flexbox;
+    display: block;
 }

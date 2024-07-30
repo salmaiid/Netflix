@@ -8,7 +8,7 @@ import joker from "../../assets/joker1.jpg"
 import detail_modal from "../../assets/detail-modal.png"
 import play_icon from "../../assets/play_icon.png"
 import info_icon from "../../assets/info_icon.png"
-import TitleCards from "../../Components/TitileCards/TitleCards";
+
 const Home = () => {
     return(
         <div className="Home">
@@ -30,19 +30,13 @@ const Home = () => {
                     <img src={detail_modal} alt="" className="caption-img" />
                     <h1>Unlimited movies, TV shows, and more...</h1>
                   
-                    <TitleCards/>
-                 
+                    
 
                 </div>
 
                     
             </div>
-            <div className="more-cards">
-                <TitleCards/>
-                <TitleCards/>
-                <TitleCards/>
-                <TitleCards/>
-            </div>
+           
 
         </div>
     )

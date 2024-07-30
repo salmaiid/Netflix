@@ -1,11 +1,17 @@
 import { useState } from 'react'
 import Home from './Pages/Home/Home'
-import Navbar from './Components/Navbar/Navbar'
-import './App.css'
+import '/App.css'
+
 
 const App = () => {
   return(
     <div>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/Login" element={<Login />} />
+
+      </Routes>
+      
       <Home/>
     </div>
   )

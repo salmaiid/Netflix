@@ -18,7 +18,7 @@ Prerequisites
 Node.js and npm should be installed on your machine.
 Installation
 Clone this repository to your local machine:
-git clone https://github.com/salmaiid/Netflix .git
+git clone https://github.com/salmaiid/Netflix1 .git
 
 Navigate to the project's root directory:
 cd Todo-LIst
